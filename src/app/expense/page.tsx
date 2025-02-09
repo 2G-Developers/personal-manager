@@ -11,8 +11,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/widgets/dialog";
-import { Button } from "@/widgets/button";
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
 import { expenseAction } from "./actions";
 
 async function getData(): Promise<Expenses[]> {
